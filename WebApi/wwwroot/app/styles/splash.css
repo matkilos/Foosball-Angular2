@@ -1,0 +1,21 @@
+.splash {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  /* horizontal alignment */
+  align-items: center;
+  /* vertical alignment */
+  font-size: 5em;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 480px) {
+  .splash {
+    font-size: 3em;
+  }
+}
